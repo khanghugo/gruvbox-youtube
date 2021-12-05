@@ -1,13 +1,4 @@
 /* ==UserStyle==
-@name           GruvBox - Youtube
-@namespace      github.com/Xedecimal/userstyles
-@version        1.0.5
-@description    Youtube... Gruvbox style.
-@preprocessor   stylus
-@author         Xedecimal
-@license        WTFPL
-@updateURL      https://raw.githubusercontent.com/Xedecimal/userstyles/master/gruvbox-youtube.user.styl
-@homepageURL    https://github.com/Xedecimal/userstyles
 @var color color-text           "Text"                  #FBF1C7
 @var color color-text-dark      "Text Dark"             #A89984
 @var color color-text-light     "Text Light"            #FBF1C7
@@ -45,7 +36,7 @@
         color: #8ec07c
 
     title()
-        color: color-text
+        color: #8ec07c
         
     title-sub()
         color: color-text-dark
@@ -54,16 +45,16 @@
         color: color-text-light
         
     link()
-        color: #8ec07c
+        color: #689d6a
         
     link-active()
         color: color-notification
     
     link-left()
-        color: #8ec07c
+        color: color-text-light
 
     link-visited()
-        color: #689d6a
+        color: color-text-light
 
     logo-text()
         fill: color-text
@@ -154,4 +145,5 @@
         text()
     html:not(.style-scope)[dark], :not(.style-scope)[dark]
         --yt-spec-call-to-action: #8ec07c
-        --yt-spec-text-secondary: #ebdbb2
+        --yt-spec-text-secondary: color-text-dark
+        --yt-spec-text-primary: color-text

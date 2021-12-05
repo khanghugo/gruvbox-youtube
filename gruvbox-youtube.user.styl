@@ -8,7 +8,7 @@
 @license        WTFPL
 @updateURL      https://raw.githubusercontent.com/Xedecimal/userstyles/master/gruvbox-youtube.user.styl
 @homepageURL    https://github.com/Xedecimal/userstyles
-@var color color-text           "Text"                  #BDAE93
+@var color color-text           "Text"                  #FBF1C7
 @var color color-text-dark      "Text Dark"             #A89984
 @var color color-text-light     "Text Light"            #FBF1C7
 @var color color-back           "Background"            #282828
@@ -16,12 +16,15 @@
 @var color color-back-light     "Background Bright"     #3C3836
 @var color color-highlight      "Highlight"             #FB4934
 @var color color-notification   "Notification"          #B8BB26
-
 ==/UserStyle== */
 
 @-moz-document domain("youtube.com")
-    body()
+    /* Insert code here... */
+    text()
         color: color-text
+        
+    body()
+        color: color-text-light
         background: color-back
 
     card()
@@ -35,10 +38,11 @@
         background: none
 
     comment-text()
-        body()
+        color: color-text-light
+        background: color-back
             
     comment-author()
-        link()
+        color: #8ec07c
 
     title()
         color: color-text
@@ -50,16 +54,16 @@
         color: color-text-light
         
     link()
-        color: color-text-light
+        color: #8ec07c
         
     link-active()
         color: color-notification
     
     link-left()
-        link()
+        color: #8ec07c
 
     link-visited()
-        color: color-text
+        color: #689d6a
 
     logo-text()
         fill: color-text
@@ -81,7 +85,11 @@
         link()
             
     video-summary()
+    
         body()
+    // --yt-spec-text-secondary
+    text-secondary()
+        color: color-text
 
     body, ytd-app, ytd-masthead, #guide-content.ytd-app, #columns.ytd-watch-flexy, ytd-browse[page-subtype="channels"], .content.ytd-video-secondary-info-renderer, ytd-app[is-watch-page], ytd-watch-flexy
         body()
@@ -139,3 +147,11 @@
 
     #simplebox-placeholder.ytd-comment-simplebox-renderer
         placeholder()
+        
+    #action-buttons.ytd-comment-renderer
+        text()
+    #action-button.yt-notification-action-renderer
+        text()
+    html:not(.style-scope)[dark], :not(.style-scope)[dark]
+        --yt-spec-call-to-action: #8ec07c
+        --yt-spec-text-secondary: #ebdbb2

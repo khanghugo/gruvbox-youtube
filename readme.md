@@ -4,4 +4,8 @@ Get [Stylus](https://duckduckgo.com/?q=stylus+browser+extension) or anything the
 
 Stylus will try to parse the [raw fille](https://github.com/khanghugo/userstyles/raw/master/gruvbox-youtube.user.styl) and ask for you to install it so everything is davai.
 
-this is not flexible so........
+![a pic ture](pics/p1.png)
+![another pic ture](pics/p2.png)
+![another pic ture](pics/p3.png)
+
+ the code is stiffer than kristen steward acting so no flexibility here

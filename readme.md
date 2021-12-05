@@ -1,11 +1,5 @@
 Oh so easy on the eyes. All based on the colors from the almighty [GruvBox](https://github.com/morhetz/gruvbox)
 
-Quick installs...
+Get [Stylus](https://duckduckgo.com/?q=stylus+browser+extension) or anything then make a script from that, or not...
 
-* 📦 [GruvBox - Github](https://raw.githubusercontent.com/Xedecimal/userstyles/master/gruvbox-github.user.styl)
-* 📦 [GruvBox - Google](https://raw.githubusercontent.com/Xedecimal/userstyles/master/gruvbox-google.user.styl)
-* 📦 [GruvBox - Gmail](https://raw.githubusercontent.com/Xedecimal/userstyles/master/gruvbox-gmail.user.styl)
-* 📦 [GruvBox - Jira](https://raw.githubusercontent.com/Xedecimal/userstyles/master/gruvbox-jira.user.styl)
-* 📦 [GruvBox - Slack](https://raw.githubusercontent.com/Xedecimal/userstyles/master/gruvbox-slack.user.styl)
-* 📦 [GruvBox - Stylus](https://raw.githubusercontent.com/Xedecimal/userstyles/master/gruvbox-stylus.user.styl)
-* 📦 [GruvBox - YouTube](https://raw.githubusercontent.com/Xedecimal/userstyles/master/gruvbox-youtube.user.styl)
+Stylus will try to parse the [raw fille](https://github.com/khanghugo/userstyles/raw/master/gruvbox-youtube.user.styl) and ask for you to install it so everything is davai.

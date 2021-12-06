@@ -4,6 +4,8 @@ Get [Stylus](https://duckduckgo.com/?q=stylus+browser+extension) or anything the
 
 Stylus will try to parse the [raw fille](https://github.com/khanghugo/userstyles/raw/master/gruvbox-youtube.user.styl) and ask for you to install it so everything is davai.
 
+Also turn on youtube night theme because it will default a lot of parts with gruvbox color (#282828).
+
 ![a pic ture](pics/p1.png)
 
 
